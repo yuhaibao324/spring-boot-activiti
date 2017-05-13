@@ -37,7 +37,7 @@ public class ActivitiApplication  implements EmbeddedServletContainerCustomizer{
 	@Override
 	public void customize(ConfigurableEmbeddedServletContainer container) {
 
-		container.setPort(8080);
+		container.setPort(8081);
 	}
 
 	@RequestMapping("/test")
