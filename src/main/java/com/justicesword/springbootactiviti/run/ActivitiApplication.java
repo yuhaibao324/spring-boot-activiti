@@ -40,7 +40,7 @@ public class ActivitiApplication  implements EmbeddedServletContainerCustomizer{
 		container.setPort(8081);
 	}
 
-	@RequestMapping("/test")
+	@RequestMapping("/debug")
 	public String testPort() {
 
 		return "Hello 端口8088......";
