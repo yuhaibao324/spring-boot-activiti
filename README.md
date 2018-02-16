@@ -1,5 +1,5 @@
 #spring-boot-activiti
-说明:只是一个演示项目.
+说明:只是一个演示项目. 
 ## 1. 流程图的设计(join.bpmn20.xml)
 ```xml
 <?xml version='1.0' encoding='UTF-8'?>

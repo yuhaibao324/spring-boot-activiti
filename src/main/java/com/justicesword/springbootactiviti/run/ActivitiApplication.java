@@ -37,13 +37,13 @@ public class ActivitiApplication  implements EmbeddedServletContainerCustomizer{
 	@Override
 	public void customize(ConfigurableEmbeddedServletContainer container) {
 
-		container.setPort(8081);
+		container.setPort(9999);
 	}
 
 	@RequestMapping("/debug")
 	public String testPort() {
 
-		return "Hello 端口8081......";
+		return "Hello 端口9999......";
 	}
 
 	public static void main(String[] args) {
